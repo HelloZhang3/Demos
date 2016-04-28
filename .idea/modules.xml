@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CustomDialog/CustomDialog.iml" filepath="$PROJECT_DIR$/CustomDialog/CustomDialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demos.iml" filepath="$PROJECT_DIR$/Demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListViewUpside/ListViewUpside.iml" filepath="$PROJECT_DIR$/ListViewUpside/ListViewUpside.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecyclerViewDemo/RecyclerViewDemo.iml" filepath="$PROJECT_DIR$/RecyclerViewDemo/RecyclerViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycodingframeowrk/mycodingframeowrk.iml" filepath="$PROJECT_DIR$/mycodingframeowrk/mycodingframeowrk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/updateheadpic/updateheadpic.iml" filepath="$PROJECT_DIR$/updateheadpic/updateheadpic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volleydemo/volleydemo.iml" filepath="$PROJECT_DIR$/volleydemo/volleydemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volly-1.0.11/volly-1.0.11.iml" filepath="$PROJECT_DIR$/volly-1.0.11/volly-1.0.11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vollyImageDemo/vollyImageDemo.iml" filepath="$PROJECT_DIR$/vollyImageDemo/vollyImageDemo.iml" />
+    </modules>
+  </component>
+</project>
