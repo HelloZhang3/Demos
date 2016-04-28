@@ -1,1 +1,1 @@
-include ':app', ':CustomDialog', ':RecyclerViewDemo', ':updateheadpic', ':volleydemo', ':volly-1.0.11', ':mycodingframeowrk', ':vollyImageDemo', ':ListViewUpside'
+include ':CustomDialog', ':RecyclerViewDemo', ':updateheadpic'

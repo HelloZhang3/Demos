@@ -10,28 +10,16 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/CustomDialog" />
-            <option value="$PROJECT_DIR$/ListViewUpside" />
             <option value="$PROJECT_DIR$/RecyclerViewDemo" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/mycodingframeowrk" />
             <option value="$PROJECT_DIR$/updateheadpic" />
-            <option value="$PROJECT_DIR$/volleydemo" />
-            <option value="$PROJECT_DIR$/volly-1.0.11" />
-            <option value="$PROJECT_DIR$/vollyImageDemo" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/CustomDialog" />
-            <option value="$PROJECT_DIR$/ListViewUpside" />
             <option value="$PROJECT_DIR$/RecyclerViewDemo" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/mycodingframeowrk" />
             <option value="$PROJECT_DIR$/updateheadpic" />
-            <option value="$PROJECT_DIR$/volleydemo" />
-            <option value="$PROJECT_DIR$/volly-1.0.11" />
-            <option value="$PROJECT_DIR$/vollyImageDemo" />
           </set>
         </option>
       </GradleProjectSettings>
