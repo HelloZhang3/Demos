@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CustomDialog/CustomDialog.iml" filepath="$PROJECT_DIR$/CustomDialog/CustomDialog.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demos.iml" filepath="$PROJECT_DIR$/Demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewWidgetAndroid/NewWidgetAndroid.iml" filepath="$PROJECT_DIR$/NewWidgetAndroid/NewWidgetAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/RecyclerViewDemo/RecyclerViewDemo.iml" filepath="$PROJECT_DIR$/RecyclerViewDemo/RecyclerViewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/updateheadpic/updateheadpic.iml" filepath="$PROJECT_DIR$/updateheadpic/updateheadpic.iml" />
     </modules>
