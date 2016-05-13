@@ -60,6 +60,23 @@ public class SwipeRefreshLayoutActivity extends AppCompatActivity {
         mListView.setAdapter(arrayAdapter);
 
 
+//        mListView.setOnScrollListener(new AbsListView.OnScrollListener() {
+//            @Override
+//            public void onScrollStateChanged(AbsListView view, int scrollState) {
+//
+//                if (scrollState == AbsListView.OnScrollListener.SCROLL_STATE_IDLE) {
+//                    //判断是否滚动到底部
+//                    if (view.getLastVisiblePosition() == view.getCount() - 1) {
+//        
+//                    }
+//                }
+//            }
+//
+//            @Override
+//            public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
+//
+//            }
+//        });
     }
 
     private void initData(List<String> data) {

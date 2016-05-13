@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 /**
  * 首页
@@ -33,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
         recycleView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "to recycle", Toast.LENGTH_SHORT).show();
+                intent = new Intent(MainActivity.this, RecycleViewActivity.class);
+                startActivity(intent);
             }
         });
     }
