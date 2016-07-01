@@ -1,1 +1,1 @@
-include ':CustomDialog', ':RecyclerViewDemo', ':updateheadpic', ':NewWidgetAndroid'
+include ':CustomDialog', ':RecyclerViewDemo', ':updateheadpic', ':NewWidgetAndroid', ':Banner'

@@ -8,10 +8,8 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.LinearLayout;
-import android.widget.TextView;
+
+import com.zyd.demos.adapter.MyAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,14 +49,15 @@ public class RecycleViewActivity extends AppCompatActivity {
         StaggeredGridLayoutManager staggeredGridLayoutManager = new StaggeredGridLayoutManager(3, GridLayoutManager.VERTICAL);
 
         //设置Manager
-//        mRecyclerView.setLayoutManager(gridLayoutManager);
         mRecyclerView.setLayoutManager(linearLayoutManager);
+//        mRecyclerView.setLayoutManager(gridLayoutManager);
 //        mRecyclerView.setLayoutManager(staggeredGridLayoutManager);
+
 
         initData();
 
         //设置适配
-        adapter = new MyAdapter();
+        adapter = new MyAdapter(this, dataList);
         mRecyclerView.setAdapter(adapter);
     }
 
@@ -66,44 +65,10 @@ public class RecycleViewActivity extends AppCompatActivity {
      * init data
      */
     private void initData() {
-        for (int i = 0; i < 100; i++) {
-            dataList.add(i + "data :" + "原始数据" + i);
+        for (int i = 0; i < 20; i++) {
+            dataList.add("原始数据" + i);
         }
 
-    }
-
-    /**
-     * 适配器
-     */
-    class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
-
-        @Override
-        public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            View view = View.inflate(parent.getContext(), R.layout.recycler_view_item, null);
-            ViewHolder holder = new ViewHolder(view);
-            return holder;
-        }
-
-        @Override
-        public void onBindViewHolder(ViewHolder holder, int position) {
-            holder.content.setText(dataList.get(position));
-        }
-
-
-        @Override
-        public int getItemCount() {
-            return dataList.size();
-        }
-
-        public class ViewHolder extends RecyclerView.ViewHolder {
-
-            private TextView content;
-
-            public ViewHolder(View itemView) {
-                super(itemView);
-                content = (TextView) ((LinearLayout) itemView).getChildAt(0);
-            }
-        }
     }
 
     @Override
@@ -117,11 +82,12 @@ public class RecycleViewActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == 1) {
-            dataList.add(1, "大大的盛大的大声道");
+            dataList.add(1, "新加的");
             adapter.notifyItemInserted(1);
+//            mRecyclerView.smoothScrollToPosition(0);//定位到首项
         } else {
-            dataList.remove(2);
-            adapter.notifyItemRemoved(2);
+            dataList.remove(1);
+            adapter.notifyItemRemoved(1);
         }
         return super.onOptionsItemSelected(item);
     }
